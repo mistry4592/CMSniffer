@@ -64,5 +64,7 @@ URL: https://example.com, Detected CMS: WordPress
 This project is licensed under the MIT License.
 
 ## Author
-[Chirag Mistry](https://linkfi.app/@chiragmistry)
-
+Chirag Mistry 
+[Linkdin](https://www.linkedin.com/in/chirag-mistry-/)
+[X- Twitter](https://x.com/mistry4592)
+[Medium](https://medium.com/@mistry4592)
