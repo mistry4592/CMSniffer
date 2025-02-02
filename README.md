@@ -60,9 +60,6 @@ URL: https://example.com, Detected CMS: WordPress
 - `cms_detection.json`: Output file in JSON format (if selected).
 - `cms_detection.txt`: Output file in TXT format (if selected).
 
-## License
-This project is licensed under the MIT License.
-
 ## Author
 Chirag Mistry 
 [Linkdin](https://www.linkedin.com/in/chirag-mistry-/)
