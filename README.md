@@ -1,68 +1,69 @@
-# CMS Detector
+CMS Detector 🚀
 
-## Description
-This is an advanced CMS (Content Management System) detection script written in Python. It uses multiple fingerprinting techniques to identify the CMS used by a website based on common signatures found in its source code, metadata, and URLs.
+🔍 Overview
 
-## Features
-- Detects various CMS platforms, including WordPress, Joomla, Drupal, Magento, Shopify, Wix, and more.
-- Supports scanning a single URL or a list of URLs from a file.
-- Outputs results in CSV, JSON, or TXT format.
-- Uses BeautifulSoup and regular expressions for improved detection.
+CMS Detector is a powerful Python-based tool that can scan and detect 30+ CMS platforms with high accuracy. Whether you're performing security analysis or just curious about a website's backend technology, this tool has you covered!
 
-## Requirements
-- Python 3.x
-- Required libraries:
-  - `requests`
-  - `beautifulsoup4`
-  - `argparse`
+✨ Features
 
-You can install the required dependencies using:
-```bash
+🚀 Detects 30+ CMS platforms including WordPress, Joomla, Drupal, Magento, Shopify, Wix, and many more.
+
+📂 Supports scanning a single URL or multiple URLs from a file.
+
+📊 Multiple output formats: TXT, CSV, JSON.
+
+🔎 Uses advanced fingerprinting techniques with BeautifulSoup and regex for precise detection.
+
+📌 Requirements
+
+Python 3.x
+
+Required libraries:
+
 pip install requests beautifulsoup4
-```
 
-## Usage
+⚡ Usage
 
-### Detect CMS for a single URL
-```bash
+🔹 Scan a Single URL
+
 python cms_detector.py -u <URL>
-```
+
 Example:
-```bash
+
 python cms_detector.py -u https://example.com
-```
 
-### Detect CMS for multiple URLs from a file
-```bash
+🔹 Scan Multiple URLs from a File
+
 python cms_detector.py -l urls.txt
-```
-`urls.txt` should contain a list of URLs, one per line.
 
-### Specify output format
-```bash
+📂 urls.txt should contain a list of URLs, one per line.
+
+🔹 Output in Different Formats
+
 python cms_detector.py -u <URL> -o <format>
-```
-Supported formats: `txt`, `csv`, `json`.
+
+✅ Supported formats: txt, csv, json
 
 Example:
-```bash
+
 python cms_detector.py -u https://example.com -o json
-```
 
-### Example Output
-```
+📜 Example Output
+
 URL: https://example.com, Detected CMS: WordPress
-```
 
-## Files
-- `cms_detector.py`: Main script for detecting CMS.
-- `cms_detection.csv`: Output file in CSV format (if selected).
-- `cms_detection.json`: Output file in JSON format (if selected).
-- `cms_detection.txt`: Output file in TXT format (if selected).
+📁 Files Included
 
-## License
-This project is licensed under the MIT License.
+cms_detector.py → Main script for detecting CMS.
 
-## Author
-[Chirag Mistry](https://linkfi.app/@chiragmistry)
+cms_detection.csv → Output file (if selected).
 
+cms_detection.json → Output file (if selected).
+
+cms_detection.txt → Output file (if selected).
+
+👨‍💻 Author
+
+Chirag Mistry
+
+🚀 Start scanning today and discover the CMS behind any website!
